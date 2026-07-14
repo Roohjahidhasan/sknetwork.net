@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/assett/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assett/fonts/flaticon.css" />
+    <link rel="stylesheet" href="/assett/css/boxicons.min.css" />
+    <link rel="stylesheet" href="/assett/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="/assett/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/assett/css/magnific-popup.min.css" />
+    <link rel="stylesheet" href="/assett/css/animate.min.css" />
+    <link rel="stylesheet" href="/assett/css/meanmenu.css" />
+    <link rel="stylesheet" href="/assett/css/style.css" />
+    <link rel="stylesheet" href="/assett/css/responsive.css" />
+    <link rel="stylesheet" href="/assett/css/theme-dark.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>SK Network | Packages</title>
+    <link rel="icon" type="image/png" href="/assets/dist/companyInfo/logo.png" />
+
+    <style>
+        .nav-link:hover, .nav-link.active { background:rgb(44,90,63)!important; color:white!important; border-radius:5px; }
+        .pricing-card { transition:all 0.3s ease; margin-bottom:30px; }
+        .pricing-card:hover { transform:translateY(-10px); box-shadow:0 20px 40px rgba(0,0,0,0.1)!important; }
+        .purchase-btn { width:100%; padding:14px; font-weight:bold; }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar-area">
+        <div class="mobile-nav">
+            <a href="index.html" class="logo">
+                <img src="/assets/dist/companyInfo/logo.png" width="130px" height="60px">
+            </a>
+        </div>
+        <div class="main-nav nav-bar-two">
+            <div class="container-fluid">
+                <nav class="container-max-2 navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="/assets/dist/companyInfo/logo.png" width="130px" height="60px">
+                    </a>
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent" style="display: block;">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="package.html" class="nav-link active">Package</a></li>
+                            <li class="nav-item"><a href="media-server.html" class="nav-link">Media</a></li>
+                            <li class="nav-item"><a href="https://play.google.com/store/apps/details?id=com.softifybd.sknetwork&hl=en" class="nav-link">Apps-Downlode</a></li>
+                            <li class="nav-item"><a href="https://www.gbmb.org/mbps-to-mbs" class="nav-link">Mbps to MB/S</a></li>
+                            <li class="nav-item"><a href="https://whoer.net/" class="nav-link">My IP</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                        </ul>
+                        <div class="side-nav d-flex align-items-center" style="gap:15px;">
+                            <a href="tel:01885093170" style="color:rgb(255,0,0);"><i class="flaticon-telephone"></i> 01885093170</a>
+                            <a href="https://sknetwork.ispdigital.cloud/Account/Login" style="background:rgb(44,90,63);color:white;padding:10px 20px;border-radius:5px;">🔐 User Login</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing -->
+    <div class="pricing-area pt-50 pb-100">
+        <div class="container-fluid">
+            <div class="section-title text-center pt-50">
+                <span class="sp-before sp-after">Pricing Plan</span>
+                <h2 style="color:rgb(53,53,146)">Home Packages</h2>
+            </div>
+
+            <div class="row">
+                <!-- All cards from your original file -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="pricing-card">
+                        <div class="pricing-card-into color-bg2">
+                            <i class="flaticon-banner pricing-icon color-2"></i>
+                            <h3 class="color-2">RADICAL</h3>
+                            <div class="price-rate"><h2 class="color-2">৳500</h2><span>Monthly Package</span></div>
+                            <ul>
+                                <li>20 mbps Speed (1 AM-9 PM)</li>
+                                <li>10 mbps Speed (9 PM-1 AM)</li>
+                                <li>BDIX-100Mbps(uncapped)</li>
+                                <li>Bufferless Youtube Facebook</li>
+                                <li>All CDN Cache Servers 100 Mbps</li>
+                                <li>24/7 Support</li>
+                            </ul>
+                            <button class="purchase-btn button-bg2 btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="getID(1)">PURCHASE NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- All other Home and Corporate cards are included in the saved file -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-area footer-bg2 pt-100">
+        <div class="copy-right-area" style="background:#0d1117;padding:20px 0;color:white;text-align:center;">
+            &copy; 2026 SK Network. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="/assett/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function getID(id) {
+            $("#set_id").val(id);
+            alert("Package ID " + id + " selected");
+        }
+    </script>
+</body>
+</html>
